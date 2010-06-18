@@ -2,9 +2,53 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>Science Hack Day - Statistics Dashboard</title>
+<link href=' http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+<link href='style.css' rel='stylesheet' type='text/css'>
+<script src="js/jquery.min.js"></script>
+<script src="js/twitterlib.min.js"></script>
+<script src="js/main.js"></script>
 </head>
 <body>
+<header role="banner">
+	<h1><img src="images/logo.png" alt="ScienceHackDay" /> Stats Dashboard</h1>
+</header>
 
+
+<!-- Main content area -->
+<section class="leftColumn">
+
+<h2>Hydration</h2>
+<div id="hydration" class="feature"></div>
+<h2>Nutrition</h2>
+<div id="nutrition" class="feature"></div>
+<h2>Sleep</h2>
+<div id="zzz" class="feature"></div>
+<h2>Code Commits</h2>
+<div id="code" class="feature"></div>
+
+<h2>More geek data stuff</h2>
+<div id="other"></div>
+</section>
+<!-- End of Main content area -->
+
+<!--Right Sidebar -->
+<aside>
+ Microcommunications
+ <div id="tweetStats">
+ <p><strong>2200</strong> tweets</p>
+ <p><strong>3</strong> lists</p>
+ <p><strong>23</strong> @replies</p>
+ </div>
+ <ul id="tweets">
+ 
+ </ul>
+</aside>
+<!-- End Sidebar -->
+<!-- Footer -->
+<footer>
+<p>Created by <a href="http://shaunhare.co.uk">Shaun Hare </a> with the help of goats, gremlins and redbull :)</p>
+</footer>
+<!-- End of Footer -->
 </body>
 </html>
